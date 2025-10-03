@@ -10,13 +10,13 @@ const testimonials = [
   },
   {
     name: "Marcus R.",
-    role: "Executivo",
+    role: "Empresário",
     content: "Qualidade excepcional por um preço incrível. O anel é assunto em todas as reuniões.",
     rating: 5,
   },
   {
     name: "Sofia L.",
-    role: "Designer de Interiores",
+    role: "Professora",
     content: "Peças atemporais que elevam qualquer look. A atenção aos detalhes é notável. Vale cada centavo.",
     rating: 5,
   },

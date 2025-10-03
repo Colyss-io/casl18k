@@ -1,38 +1,38 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import necklace from "@/assets/necklace.jpg";
-import ring from "@/assets/ring.jpg";
-import bracelet from "@/assets/bracelet.jpg";
-import earrings from "@/assets/earrings.jpg";
+import pulseira from "@/assets/cordao-cruz.webp"
+import pulseira_feminina from "@/assets/pulseira-feminina-cadeado.jpg"
+import cordao_grumet from "@/assets/cordao-grumet.webp"
+import pulseira_grumet_laminado from "@/assets/pulseira-grumet-laminado.webp"
 
 const products = [
   {
     id: 1,
-    name: "Colar Elegância Esmeralda",
-    description: "Banhado a ouro 18K com pedras de esmeralda genuínas",
-    price: "R$ 1.499",
-    image: necklace,
+    name: "Cordão Cruz Pingente",
+    description: "Cordão masculino com pingente de cruz, banhado a ouro 18K. Estilo marcante e acabamento sofisticado para qualquer ocasião.",
+    price: "R$ 215",
+    image: pulseira,
   },
   {
     id: 2,
-    name: "Anel Luxo Diamante",
-    description: "Ouro 18K premium com diamantes de corte brilhante",
-    price: "R$ 1.249",
-    image: ring,
+    name: "Cordão Grumet",
+    description: "Cordão modelo grumet banhado a ouro 18K. Clássico, resistente e elegante, ideal para destacar seu estilo em qualquer ocasião.",
+    price: "R$ 190",
+    image: cordao_grumet,
   },
   {
     id: 3,
-    name: "Pulseira Corrente Real",
-    description: "Pulseira artesanal em ouro 18K com detalhes em esmeralda",
-    price: "R$ 999",
-    image: bracelet,
+    name: "Pulseira Feminina",
+    description: "Pulseira feminina modelo cadeado banhada a ouro 18K. Um toque delicado e moderno que realça sua beleza no dia a dia.",
+    price: "R$ 140",
+    image: pulseira_feminina,
   },
   {
     id: 4,
-    name: "Brincos Cascata",
-    description: "Elegantes brincos em ouro 18K com pingentes de esmeralda",
-    price: "R$ 899",
-    image: earrings,
+    name: "Pulseira Grumet",
+    description: "Pulseira modelo grumet banhada a ouro 18K. Design clássico e versátil que combina com qualquer estilo.",
+    price: "R$ 150",
+    image: pulseira_grumet_laminado,
   },
 ];
 
@@ -80,7 +80,7 @@ const ProductGrid = () => {
                     size="sm" 
                     className="bg-primary hover:bg-primary/90 hover-glow-green text-primary-foreground rounded-full"
                   >
-                    Comprar
+                    <a href="https://casl-18-k.rdi.store">Comprar</a>
                   </Button>
                 </div>
               </div>
@@ -94,7 +94,7 @@ const ProductGrid = () => {
             size="lg"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground rounded-full px-8"
           >
-            Ver Coleção Completa
+            <a href="https://casl-18-k.rdi.store">Ver Coleção Completa</a>
           </Button>
         </div>
       </div>

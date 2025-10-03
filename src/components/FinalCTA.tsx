@@ -24,7 +24,7 @@ const FinalCTA = () => {
           onClick={scrollToProducts}
           className="bg-primary hover:bg-primary/90 hover-glow-green text-primary-foreground font-semibold px-12 py-7 text-xl rounded-full group"
         >
-          Explorar Coleções
+          <a href="https://casl-18-k.rdi.store">Explorar Coleções</a>
           <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
         </Button>
       </div>

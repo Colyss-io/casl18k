@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "Vocês fazem entregas em todo o Brasil?",
-    answer: "Com certeza! Oferecemos entrega para todo o Brasil em todos os pedidos. Frete grátis para compras acima de R$ 500, e também oferecemos opções de entrega expressa para recebimento mais rápido.",
+    answer: "Com certeza! Oferecemos entrega para todo o Brasil em todos os pedidos. Frete grátis para compras acima de R$ 300, e também oferecemos opções de entrega expressa para recebimento mais rápido.",
   },
   {
     question: "Qual é a política de devolução?",
